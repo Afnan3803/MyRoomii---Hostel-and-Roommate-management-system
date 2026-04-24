@@ -1,8 +1,34 @@
-MyRoomii is a database-driven hostel and roommate management platform 
-designed for university students. Built with a .NET frontend and 
-Microsoft SQL Server backend, it features a dual Business Logic Layer 
-(LINQ/EF and Stored Procedures) switchable at runtime via the Factory 
-Design Pattern. Includes a compatibility-scoring algorithm that matches 
-students based on budget, cleanliness, noise level, sleep schedule, and 
-lifestyle preferences — backed by a 1M+ row database with stored 
-procedures, triggers, CTEs, views, indexes, and table partitioning.
+---
+
+## Getting Started
+
+### Prerequisites
+- Visual Studio 2022+
+- Microsoft SQL Server + SSMS
+- .NET 8 SDK
+
+### Setup
+
+1. **Clone the repo**
+```bash
+   git clone https://github.com/Afnan3803/MyRoomii---Hostel-and-Roommate-management-system.git
+   cd MyRoomii---Hostel-and-Roommate-management-system
+```
+
+2. **Set up the database**
+   - Open SSMS and connect to your SQL Server instance
+   - Run `group59_p2.sql` — this creates and populates the entire database from scratch
+
+3. **Configure connection string**
+   - Open `MyRoomiiContext.cs`
+   - Update the connection string with your server name and credentials
+
+4. **Run the application**
+   - Open `dbproj.sln` in Visual Studio
+   - Build and run `Phase3`
+
+---
+
+## Authors
+
+Built as a Database Systems course project at LUMS.
