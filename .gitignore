@@ -1,0 +1,7 @@
+bin/
+obj/
+*.user
+.vs/
+.DS_Store
+__MACOSX/
+*.suo
